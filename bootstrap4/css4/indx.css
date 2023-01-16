@@ -176,7 +176,7 @@ body {
     animation-iteration-count: infinite;
     animation-duration: 0.8s;
     position: absolute;
-    top: -2%;
+    top: -0.2%;
     margin-left: -15px;
 }
 
@@ -616,6 +616,11 @@ body {
     margin-left: -40%;
     display: flex;
     overflow: hidden;
+    position: relative;
+}
+
+.div_team .container .row .div_image .div_icon .icon:hover {
+    color: red;
 }
 
 .div_team .container .row .div_image::before {
@@ -951,6 +956,10 @@ body {
 
 .div_pricing .container .row div .my_col .d_flex p {
     color: var(--color_ccc1);
+}
+
+.div_pricing .container .row div .my_col .my_button {
+    position: relative;
 }
 
 /* end pricing */
