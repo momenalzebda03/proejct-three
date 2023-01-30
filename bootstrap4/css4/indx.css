@@ -821,69 +821,50 @@ body {
     text-align: right;
 }
 
-.div_latest .div_flex {
-    display: flex;
-    gap: 0%;
-}
-
-.div_latest .div_flex .div_flex1 div {
-    border: 2px solid #6a686780;
-}
-
-.div_latest .div_flex .div_flex1 {
-    color: var(--color_blue);
-    margin-top: 5%;
-    display: flex;
-    width: 18%;
-    height: 180px;
-    gap: 25%;
-    text-align: center;
-}
-
-.div_latest .div_flex .div_image1 img {
+.div_latest .container .row .div_image1 img {
     width: 70%;
 }
 
-.div_latest .div_center {
-    text-align: center;
-    margin-left: 39%;
-    margin-top: -6%;
-    padding-right: 5%;
+.div_latest .container .row .container .row div {
+    border: 2px solid #6a686780;
 }
 
-.div_latest .div_center p {
+.div_latest .container .row .container .row div {
+    color: var(--color_blue);
+    margin-left: 1%;
+    height: 180px;
+    text-align: center;
+}
+
+.div_latest .container .row div .container .div_center {
+    text-align: center;
     color: var(--color_ccc1);
 }
 
-.div_latest form {
+.div_latest .div_mycenter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.div_latest .div_mycenter form {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     width: 400px;
-    margin-left: 37.5%;
-    display: flex;
-    gap: 5%;
-    padding-left: 1%;
     background-color: #eee;
     border-radius: 60px;
 }
 
-.div_latest form .input1 {
-    padding-left: 2%;
+.div_latest .div_mycenter form .input1,
+.div_latest .div_mycenter form .input2 {
     border-radius: 60px;
+    padding: 4%;
     border: none;
-    width: 70%;
 }
 
-.div_latest form .input2 {
-    padding: 4%;
+.div_latest .div_mycenter form .input2 {
     background-color: var(--color_blue);
     color: var(--color_white);
-    border-radius: 60px;
-    border: none;
-}
-
-.div_latest form .input2:hover {
-    background-color: red;
 }
 
 /* end latest */
@@ -1287,9 +1268,19 @@ body {
         text-align: center;
         padding-top: 5%;
     }
+
+    .div_callery .container .row div .div_white:hover::before {
+        display: none;
+    }
 }
 
 @media (max-width: 890px) and (min-width: 0px) {
+
+    .div_stats .container .row div .louk_color:hover::before,
+    .div_stats .container .row div .louk_color:hover::after {
+        height: 145px;
+    }
+
     .div_none .container .row .div_right .div_flex {
         display: flex;
         flex-direction: column;
@@ -1338,12 +1329,7 @@ body {
     }
 
     .div_box {
-        position: absolute;
-        top: 99%;
-    }
-
-    .div_box .div_posat .my_icon {
-        top: -1%;
+        margin-top: 500px;
     }
 
     .my_h2 {
@@ -1409,11 +1395,6 @@ body {
         height: 400px;
     }
 
-    .div_callery .container .row div .div_white:hover::before {
-        width: 350px;
-        height: 5px;
-    }
-
     .div_callery .container .row div .div_white::before {
         content: "";
         margin-left: -175px;
@@ -1465,31 +1446,8 @@ body {
         text-align: center;
     }
 
-    .div_latest .div_flex .div_flex1 {
-        display: flex;
-        flex-direction: column;
-        width: 110%;
-        height: 550px;
-        gap: 1%;
-        margin-left: -15%;
-    }
-
-    .div_latest .div_center {
-        text-align: center;
-        margin-left: 0%;
-        margin-top: -6%;
-        padding-right: 0%;
-    }
-
-    .div_latest form {
-        display: flex;
-        flex-direction: column;
-        width: 85%;
-        margin-left: 10%;
-    }
-
-    .div_latest form input {
-        margin-top: 10%;
+    .div_latest form .input1 {
+        width: 100%;
     }
 
     .div_pricing .container .row div .my_col .d_flex {

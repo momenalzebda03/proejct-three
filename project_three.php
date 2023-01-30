@@ -890,47 +890,56 @@
             <div class="div_image">
                 <img src="image4/dots.png" alt="">
             </div>
-            <div class="div_flex">
-                <div class="div_image1">
-                    <img src="image4/events.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-6 div_image1">
+                        <img src="image4/events.png" alt="">
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-5 col-lg-3">
+                                    <h1>0-8</h1>
+                                    <hr>
+                                    <p>days</p>
+                                </div>
+                                <div class="col-sm-12 col-md-5 col-lg-3">
+                                    <h1>0-2</h1>
+                                    <hr>
+                                    <p>hours</p>
+                                </div>
+                                <div class="col-sm-12 col-md-5 col-lg-2">
+                                    <h1>0-39</h1>
+                                    <hr>
+                                    <p>minutes</p>
+                                </div>
+                                <div class="col-sm-12 col-md-5 col-lg-3">
+                                    <h1>0-9</h1>
+                                    <hr>
+                                    <p>seconds</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="div_center">
+                                <h3>tech masters event 2023</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquid excepturi minus tempore
+                                    magnam sed ut id quaerat laborum nam velit iure debitis minima laudantium quos rerum totam in
+                                    tenetur?</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="div_flex1">
-                    <div class="">
-                        <h1>0-8</h1>
-                        <hr>
-                        <p>days</p>
-                    </div>
-                    <div class="">
-                        <h1>0-2</h1>
-                        <hr>
-                        <p>hours</p>
-                    </div>
-                    <div class="">
-                        <h1>0-39</h1>
-                        <hr>
-                        <p>minutes</p>
-                    </div>
-                    <div class="">
-                        <h1>0-9</h1>
-                        <hr>
-                        <p>seconds</p>
-                    </div>
-                </div>
-            </div>
-            <div class="div_center">
-                <h3>tech masters event 2023</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquid excepturi minus tempore
-                    magnam sed ut id quaerat laborum nam velit iure debitis minima laudantium quos rerum totam in
-                    tenetur?</p>
             </div>
             <div class="div_image2">
                 <img src="image4/dots.png" alt="">
             </div>
             <br>
-            <form action="" method="">
-                <input type="text" class="input1" placeholder="Enter Your Email">
-                <input type="submit" value="subscribe" class="input2">
-            </form>
+            <div class="div_mycenter">
+                <form action="" method="">
+                    <input type="text" class="input1" placeholder="Enter Your Email">
+                    <input type="submit" value="subscribe" class="input2">
+                </form>
+            </div>
         </div>
         <!-- end latest -->
         <!-- start pricing -->
@@ -1222,7 +1231,7 @@
                             ?>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="col-sm-12 col-md-12 col-lg-4">
                         <div class="my_col">
                             <h4>professional</h4>
                             <br>
